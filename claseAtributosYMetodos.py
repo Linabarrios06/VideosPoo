@@ -7,7 +7,7 @@ class Color:
     uso_grafico= True
     
     #METODOS
-    def colorear(self):
+    def colorear(self): #self es la palabra reservada para clasifircar un metodo
         print('El color esta coloreando. ')
         
     def borrar(self):
@@ -19,10 +19,10 @@ class Color:
     def se_puede_borrar(self):
         return self.tiene_borrador
     
-    
+#Llamamos los METODOS que hicimos anteriormennte 
 color=Color()
 color.colorear()
-color.tiene_borrador=False
+color.tiene_borrador=False #Aqui podemos cambiar el valor ya sea verdadero o falso 
 color.borrar()
         
 
